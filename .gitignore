@@ -1,0 +1,62 @@
+# Entorno virtual
+venv/
+env/
+ENV/
+.venv/
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de configuración del editor
+*.sublime-project
+*.sublime-workspace
+.vscode/
+.idea/
+
+# Archivos de logs
+*.log
+
+# Archivos de base de datos local
+*.sqlite3
+
+# Archivos generados por Django
+db.sqlite3
+media/
+staticfiles/
+static/
+
+# Configuración local de Django
+local_settings.py
+.env
+.env.*
+
+# Archivos de migraciones (opcional, si quieres ignorarlos hasta que estén estables)
+**/migrations/*.pyc
+**/migrations/__pycache__/
+# Si prefieres ignorar todas las migraciones iniciales durante desarrollo:
+# **/migrations/*.py
+
+# Archivos de compilación
+build/
+dist/
+*.egg-info/
+
+# Archivos de testing
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+htmlcov/
+
+# Archivos de Docker (opcional)
+*.pid
+*.sock
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+Include
+Lib
